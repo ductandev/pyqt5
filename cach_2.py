@@ -1,0 +1,132 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'test_ui.ui'
+#
+# Created by: PyQt5 UI code generator 5.14.1
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(560, 619)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(60, 10, 428, 33))
+        font = QtGui.QFont()
+        font.setPointSize(16)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setObjectName("label")
+        self.groupBox = QtWidgets.QGroupBox(self.centralwidget)
+        self.groupBox.setGeometry(QtCore.QRect(70, 250, 421, 211))
+        self.groupBox.setObjectName("groupBox")
+        self.checkBox_2 = QtWidgets.QCheckBox(self.groupBox)
+        self.checkBox_2.setGeometry(QtCore.QRect(80, 30, 111, 20))
+        self.checkBox_2.setObjectName("checkBox_2")
+        self.checkBox = QtWidgets.QCheckBox(self.groupBox)
+        self.checkBox.setGeometry(QtCore.QRect(220, 30, 121, 20))
+        self.checkBox.setObjectName("checkBox")
+        self.spinBox = QtWidgets.QSpinBox(self.groupBox)
+        self.spinBox.setGeometry(QtCore.QRect(210, 100, 42, 22))
+        self.spinBox.setObjectName("spinBox")
+        self.label_2 = QtWidgets.QLabel(self.groupBox)
+        self.label_2.setGeometry(QtCore.QRect(100, 100, 91, 16))
+        self.label_2.setObjectName("label_2")
+        self.label_5 = QtWidgets.QLabel(self.groupBox)
+        self.label_5.setGeometry(QtCore.QRect(90, 130, 101, 21))
+        self.label_5.setObjectName("label_5")
+        self.spinBox_2 = QtWidgets.QSpinBox(self.groupBox)
+        self.spinBox_2.setGeometry(QtCore.QRect(210, 130, 42, 22))
+        self.spinBox_2.setObjectName("spinBox_2")
+        self.groupBox_2 = QtWidgets.QGroupBox(self.centralwidget)
+        self.groupBox_2.setGeometry(QtCore.QRect(70, 110, 421, 121))
+        self.groupBox_2.setObjectName("groupBox_2")
+        self.label_3 = QtWidgets.QLabel(self.groupBox_2)
+        self.label_3.setGeometry(QtCore.QRect(22, 33, 91, 16))
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(self.groupBox_2)
+        self.label_4.setGeometry(QtCore.QRect(22, 62, 71, 16))
+        self.label_4.setObjectName("label_4")
+        self.lineEdit_2 = QtWidgets.QLineEdit(self.groupBox_2)
+        self.lineEdit_2.setGeometry(QtCore.QRect(120, 31, 181, 22))
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.comboBox_2 = QtWidgets.QComboBox(self.groupBox_2)
+        self.comboBox_2.setGeometry(QtCore.QRect(120, 60, 71, 22))
+        self.comboBox_2.setObjectName("comboBox_2")
+        self.comboBox_2.addItem("")
+        self.comboBox_2.addItem("")
+        self.label_6 = QtWidgets.QLabel(self.centralwidget)
+        self.label_6.setGeometry(QtCore.QRect(390, 510, 59, 16))
+        self.label_6.setObjectName("label_6")
+        self.splitter = QtWidgets.QSplitter(self.centralwidget)
+        self.splitter.setGeometry(QtCore.QRect(142, 502, 230, 28))
+        self.splitter.setOrientation(QtCore.Qt.Horizontal)
+        self.splitter.setObjectName("splitter")
+        self.splitter_2 = QtWidgets.QSplitter(self.splitter)
+        self.splitter_2.setOrientation(QtCore.Qt.Horizontal)
+        self.splitter_2.setObjectName("splitter_2")
+        self.pushButton = QtWidgets.QPushButton(self.splitter_2, clicked = lambda: self.calcTotal())
+        self.pushButton.setObjectName("pushButton")
+        self.lineEdit_3 = QtWidgets.QLineEdit(self.splitter_2)
+        self.lineEdit_3.setObjectName("lineEdit_3")
+        self.splitter.raise_()
+        self.groupBox.raise_()
+        self.groupBox_2.raise_()
+        self.label.raise_()
+        self.label_6.raise_()
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 560, 26))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+        #self.pushButton.clicked.connect(self.calcTotal)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.label.setText(_translate("MainWindow", "Ứng dụng tính tiền phòng khám"))
+        self.groupBox.setTitle(_translate("MainWindow", "Dịch vụ"))
+        self.checkBox_2.setText(_translate("MainWindow", "Tẩy trắng"))
+        self.checkBox.setText(_translate("MainWindow", "Niềng răng"))
+        self.label_2.setText(_translate("MainWindow", "Nhổ răng"))
+        self.label_5.setText(_translate("MainWindow", "Trồng răng"))
+        self.groupBox_2.setTitle(_translate("MainWindow", "Thông tin khách hàng"))
+        self.label_3.setText(_translate("MainWindow", "Họ và tên:"))
+        self.label_4.setText(_translate("MainWindow", "Giới tính"))
+        self.comboBox_2.setItemText(0, _translate("MainWindow", "Nam"))
+        self.comboBox_2.setItemText(1, _translate("MainWindow", "Nữ"))
+        self.label_6.setText(_translate("MainWindow", "VND"))
+        self.pushButton.setText(_translate("MainWindow", "Tính tổng"))
+
+    def calcTotal(self):
+        print("Press button")
+        print("Fullname:", self.lineEdit_2.text())
+        print("Sex:", self.comboBox_2.currentText())
+        print("Co tay rang?", self.checkBox_2.checkState())
+        print("Co nieng rang?", self.checkBox.checkState())
+        print("Trong rang:", self.spinBox_2.text())
+        print("Nho rang:", self.spinBox.text())
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
