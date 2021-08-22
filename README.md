@@ -27,9 +27,9 @@ python -m PyQt5.uic.pyuic -x file.ui -o file.py
 
 # Cài đặt Pyqt5
 ```
-$ pip3 install pyqt5
-$ pip3 install qyqt5 tools
-$ pip3 install pyqt5designer
+$ pip3 install pyqt5                                                      (Thư viện)
+$ pip3 install qyqt5 tools                                                (Thư viện chuyển đuôi .ui sang .py)
+$ pip3 install pyqt5designer                                              (Phần mềm thiết kế QtDesigner)
 ```
 
 # 1. Chuyển đuôi ".ui" thành ".py"
