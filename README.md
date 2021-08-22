@@ -48,7 +48,7 @@ python -m PyQt5.uic.pyuic -x file.ui -o file.py
 $ pip3 install pyinstaller 
 ```
 
-*Note: -w "off console window",  -y "need to continuous integration"
+***Note:*** **-w** "off console window",  **-y** "need to continuous integration"
 - [x] :tada: **Linux:**
 ```
 $ pyinstaller --onefile -w -y file.py 
