@@ -41,7 +41,7 @@ if __name__ == "__main__":                      #start
     app = QApplication(sys.argv)                #1
     main_win = MainWindow()                     #----> nhảy vào "class MainWindow:""
     main_win.show()                             #5
-    sys.exit(app.exec())                        #6
+    sys.exit(app.exec_())                        #6
 
 
 #  ** Một Chương Trình Bắt Buộc Gồm Có**
