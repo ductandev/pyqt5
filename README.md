@@ -48,7 +48,7 @@ python -m PyQt5.uic.pyuic -x file.ui -o file.py
 $ pip3 install pyinstaller                                                (Thư viện chuyển đuôi .py thành .exe)
 ```
 
-***Note:*** **-w** "off console window",  **-y** "need to continuous integration", **--onefile** : đóng gói tất cả vào 1 file duy nhất nên sẽ không biết thiếu file gì
+***Note:*** **-w** "Không hiển thị cửa sổ console windows",  **-y** "need to continuous integration", **--onefile** : đóng gói tất cả vào 1 file duy nhất nên sẽ không biết thiếu file gì
 - [x] :tada: **Linux:**
 ```
 $ pyinstaller --onefile -w -y file.py 
