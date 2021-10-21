@@ -49,6 +49,19 @@ $ pip3 install pyinstaller                                                (Thư 
 ```
 
 ***Note:*** **-w** "Không hiển thị cửa sổ console windows",  **-y** "need to continuous integration", **--onefile** : đóng gói tất cả vào 1 file duy nhất nên sẽ không biết thiếu file gì
+```
++ Đóng gói chương trình vào một file duy nhất:
+$ pyinstaller -F test.py 
+
+Sau quá trình đóng gói, bên trong thư mục dist sẽ xuất hiện “stand-alone executable file” test.exe, file này sẽ có dung lượng khá lớn vì nó chứa cả các thư viện liên quan.
+
++ Đóng gói chương trình cùng với icon file (tạo icon cho file):
+$ pyinstaller -i programIcon.ico test.py
+
+Trong đó: programIcon.ico là icon file.
+```
+
+
 - [x] :tada: **Linux:**
 ```
 $ pyinstaller --onefile -w -y file.py 
