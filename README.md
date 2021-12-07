@@ -20,6 +20,8 @@ app.exec()
 ```
 pyuic5 -x file.ui -o file.py 
 ```
+-x : execu (thực thi) \
+-o : output
 - [x] :tada: **Windows:**
 ```
 python -m PyQt5.uic.pyuic -x file.ui -o file.py
