@@ -67,10 +67,10 @@ Sau quá trình đóng gói, bên trong thư mục dist sẽ xuất hiện “st
 $ pyinstaller -i programIcon.ico test.py
 
 Trong đó: programIcon.ico là icon file.
-
-Video hướng dẫn: https://www.youtube.com/watch?v=bV8nB5jEid4
 ```
-
+Tạo icon from giao diện : https://www.geeksforgeeks.org/how-to-set-icon-to-a-window-in-pyqt5/# \
+Video hướng dẫn tạo icon bằng pyInstaller: https://www.youtube.com/watch?v=bV8nB5jEid4 \
+Trang convert .png sang đuôi .ico : https://www.icoconverter.com/
 
 - [x] :tada: **Linux:**
 ```
