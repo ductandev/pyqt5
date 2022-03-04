@@ -67,6 +67,8 @@ Sau quá trình đóng gói, bên trong thư mục dist sẽ xuất hiện “st
 $ pyinstaller -i programIcon.ico test.py
 
 Trong đó: programIcon.ico là icon file.
+
+Video hướng dẫn: https://www.youtube.com/watch?v=bV8nB5jEid4
 ```
 
 
