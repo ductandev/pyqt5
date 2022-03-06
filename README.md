@@ -65,7 +65,7 @@ Sau quá trình đóng gói, bên trong thư mục dist sẽ xuất hiện “st
 
 + Đóng gói chương trình cùng với icon file (tạo icon cho file):
 $ pyinstaller -i programIcon.ico test.py
-$ python -m PyInstaller --onefile -w -icon=d:\Share_ubuntu\Lay_anh_opencv-main\Bai4\2.ico .\main_new.py
+$ python -m PyInstaller --onefile -w --icon=d:\Share_ubuntu\Lay_anh_opencv-main\Bai4\2.ico .\main_new.py
 
 Trong đó: programIcon.ico là icon file.
 ```
